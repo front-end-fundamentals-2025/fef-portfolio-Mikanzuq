@@ -6,6 +6,20 @@
   font-style: normal;
 }
 
+.orbitron-h2 {
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.dm-sans-normal {
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
 .orbitron-normal {
   font-family: "Orbitron", serif;
   font-optical-sizing: auto;
@@ -49,14 +63,19 @@ nav a {
 
 main {
   margin-top: 50px;
-  padding-left: 0px;
+  padding-left: 10px;
 }
 
-/* image */
+/* images */
 .main-img {
-  padding: 150px;
-  width: 70%;
+  padding: 0px;
+  width: 50%;
 }
+
+/* .second-img {
+  padding: 0px;
+  width: 60%;
+} */
 
 /* footer */
 footer {
