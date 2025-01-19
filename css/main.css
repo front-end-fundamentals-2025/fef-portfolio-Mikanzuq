@@ -1,3 +1,6 @@
+/* <!-- Most of the lines of code was adapted from https://www.youtube.com/watch?v=M_jAoZULcmk Accessed: 2025-01-19 --> */
+/* <!-- Most of the lines of code was adapted from https://www.youtube.com/watch?v=ixZCLT9Xgnw Accessed: 2025-01-19 --> */
+
 /* fonts for the texts*/
 .orbitron-heading {
   font-family: "Orbitron", serif;
@@ -37,11 +40,11 @@ body {
 }
 
 header {
-  display: flex;
+  display: flex; /* <!-- line 43 of code was adapted from https://chatgpt.com/share/678d02b0-4450-800a-b76c-daea2bd12055 Accessed: 2025-01-19 --> */
   justify-content: space-between;
-  align-items: center;
+  align-items: center; /* <!-- line 45 of code was adapted from https://chatgpt.com/share/678d02b0-4450-800a-b76c-daea2bd12055 Accessed: 2025-01-19 --> */
   padding: 0;
-  position: relative;
+  position: relative; /* <!-- line 47 of code was adapted from https://chatgpt.com/share/678d02b0-4450-800a-b76c-daea2bd12055 Accessed: 2025-01-19 --> */
   border-bottom: 1px solid black;
 }
 
@@ -54,6 +57,7 @@ ul {
 }
 
 ul li {
+  /* <!-- line 59 of code was adapted from https://chatgpt.com/share/678d02b0-4450-800a-b76c-daea2bd12055Accessed: 2025-01-19 --> */
   margin-right: 20px;
 }
 
@@ -61,9 +65,32 @@ nav a {
   color: blueviolet;
 }
 
+/* Main  */
+
 main {
   margin-top: 50px;
   padding-left: 10px;
+}
+
+main p.orbitron-normal {
+  border: 1px solid black;
+  padding: 25px;
+  margin-right: 400px;
+}
+
+#write-name {
+  margin-top: 100px;
+}
+
+.orbitron-normal-send {
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #ff4141;
+  border: 1px solid #ff4141;
+  padding: 25px;
+  margin-right: 720px;
 }
 
 /* images */
@@ -72,11 +99,6 @@ main {
   width: 50%;
 }
 
-/* .second-img {
-  padding: 0px;
-  width: 60%;
-} */
-
 /* Contact info */
 figure {
   margin-left: 0;
@@ -84,7 +106,7 @@ figure {
 
 /* footer */
 footer {
-  /* margin-top: 300px; */
+  margin-top: 250px;
   padding-bottom: 20px;
   padding-left: 10px;
   text-align: left;
