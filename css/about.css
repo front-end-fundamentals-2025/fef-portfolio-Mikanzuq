@@ -44,7 +44,7 @@ body {
 }
 
 header {
-  display: grid; /* <!-- line 43 of code was adapted from https://chatgpt.com/share/678d02b0-4450-800a-b76c-daea2bd12055 Accessed: 2025-01-19 --> */
+  display: grid;
   grid-template-columns: 1fr auto;
   align-items: center; /* <!-- line 45 of code was adapted from https://chatgpt.com/share/678d02b0-4450-800a-b76c-daea2bd12055 Accessed: 2025-01-19 --> */
   padding: 10px 20px;
@@ -126,5 +126,3 @@ footer {
   border-top: 1px solid black;
   background-color: white;
 }
-
-/* Responisve design */

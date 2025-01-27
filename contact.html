@@ -37,40 +37,43 @@
         </ul>
       </nav>
     </header>
-    <main class="main-down">
+    <aside class="main-down">
       <h3 class="orbitron-heading">Contact information and social media:</h3>
       <section>
         <a href="#">
           <figure>
-            <figcaption class="dm-sans-normal">xxxxxxx@gmail.com</figcaption>
-          </figure>
-        </a>
-
-        <a href="#">
-          <figure>
+            <img
+              class="social-icons"
+              src="img/instagram.webp"
+              alt="Instagram logo"
+            />
             <figcaption class="dm-sans-normal">instagram</figcaption>
           </figure>
         </a>
 
         <a href="#">
           <figure>
+            <img class="social-icons" src="img/tiktok.webp" alt="tiktok icon" />
             <figcaption class="dm-sans-normal">Linkedin</figcaption>
           </figure>
         </a>
       </section>
+    </aside>
 
+    <main>
       <div class="contact-form">
         <form action="action_page.php">
           <label for="Write your name"></label>
           <input type="text" id="mail" name="mail" placeholder="your mail" />
 
           <label for="Write your message"></label>
-          <input
-            type="text"
+          <textarea
             id="message"
             name="message"
-            placeholder="your message"
-          />
+            placeholder="Write message..."
+            style="height: 80px"
+          ></textarea>
+
           <input type="submit" value="submit" />
         </form>
       </div>
