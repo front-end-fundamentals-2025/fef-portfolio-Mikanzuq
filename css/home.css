@@ -89,6 +89,7 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
+  color: white;
 }
 
 /* main image at the top (hero) & text  */
