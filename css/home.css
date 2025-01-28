@@ -1,0 +1,87 @@
+/* fonts for the texts*/
+.orbitron-heading {
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.orbitron-h2 {
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.dm-sans-normal {
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.orbitron-normal {
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+/* background color of the body */
+body {
+  background-color: #eae7e7;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+  min-height: 100vh;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center; /* <!-- line 45 of code was adapted from https://chatgpt.com/share/678d02b0-4450-800a-b76c-daea2bd12055 Accessed: 2025-01-19 --> */
+  padding: 10px 20px;
+  position: fixed; /* <!-- line 47 of code was adapted from https://chatgpt.com/share/678d02b0-4450-800a-b76c-daea2bd12055 Accessed: 2025-01-19 --> */
+  width: 100%;
+  background-color: #eae7e7;
+  border-bottom: 1px solid black;
+  z-index: 1000;
+}
+
+header h1.orbitron-heading {
+  margin-right: 0;
+}
+
+nav {
+  display: flex;
+}
+
+/* header links */
+ul {
+  list-style: none;
+  margin-right: 2rem;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: blueviolet;
+}
+
+main {
+  margin-top: 20rem;
+}
+
+/* footer */
+footer {
+  margin-top: auto;
+  padding: 20px 10px;
+  text-align: left;
+  border-top: 1px solid black;
+  background-color: white;
+}
