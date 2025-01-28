@@ -20,6 +20,13 @@
   font-style: normal;
 }
 
+.dm-sans-thick {
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .orbitron-normal {
   font-family: "Orbitron", serif;
   font-optical-sizing: auto;
@@ -29,13 +36,19 @@
   padding-left: 10px;
 }
 
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
 /* background color of the body */
 body {
   background-color: #cac9c9;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
   min-height: 100vh;
 }
@@ -70,11 +83,91 @@ ul {
 }
 
 nav a {
-  color: blueviolet;
+  color: rgb(47, 46, 46);
+  text-decoration: none;
 }
 
-main {
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* main image at the top (hero) & text  */
+.hero {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-left: 0;
+  padding-top: 4rem;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.hero .content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-items: start;
+}
+.hero h1 {
+  margin-bottom: 2rem;
+}
+
+.hero #button {
+  background-color: rgb(185, 13, 13);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 30px;
+  width: fit-content;
+}
+
+.hero #button:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+/* main {
   margin-top: 20rem;
+} */
+
+.archive {
+  display: grid;
+  padding: 20px;
+  padding-top: 70px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.artwork {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.artwork img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.artwork .description {
+  margin-bottom: 10px;
+}
+.artwork #button {
+  background-color: rgb(190, 96, 96);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.artwork #button:hover {
+  background-color: black;
 }
 
 /* footer */
