@@ -76,7 +76,7 @@ ul {
 }
 
 nav a {
-  color: rgb(47, 46, 46);
+  color: #5a5a5a;
   text-decoration: none;
 }
 
@@ -101,7 +101,7 @@ main {
 }
 
 img {
-  width: 80%;
+  width: 100%;
   height: auto;
 }
 
