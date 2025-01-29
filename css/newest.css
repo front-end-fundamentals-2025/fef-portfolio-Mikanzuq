@@ -88,13 +88,21 @@ nav a:hover {
 /* main */
 
 main {
-  margin: 15px;
+  margin-top: 10%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
+#text-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 10px;
   margin-bottom: 30px;
   margin-top: 70px;
   align-items: center;
@@ -105,7 +113,21 @@ img {
   height: auto;
 }
 
-.content #text-right,
+.image-left {
+  grid-column: 2;
+}
+
+.image.right {
+  grid-column: 1;
+}
+
+.content #text-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
 .content #text-left {
   display: flex;
   align-items: center;
