@@ -52,7 +52,7 @@ header {
   width: 100%;
   background-color: #eae7e7;
   border-bottom: 1px solid black;
-  z-index: 1000;
+  z-index: 1;
 }
 
 header h1.orbitron-heading {
@@ -90,21 +90,14 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-content: flex-start;
-  align-items: space-evenly;
+  align-items: center;
   gap: 1rem;
 }
-
-/* .about-content {
-  padding: 10px;
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
-} */
 
 .intro {
   padding: 0;
   width: 50%;
-  max-width: 500px;
+  max-width: 200vh;
 }
 
 .skills {
@@ -131,4 +124,43 @@ footer {
   text-align: left;
   border-top: 1px solid black;
   background-color: white;
+}
+
+/* responsive design smaller screen */
+
+@media screen and (max-width: 830px) {
+  main {
+    grid-template-columns: 1fr;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .intro {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .skills-list {
+    width: 80%;
+    text-align: left;
+  }
+}
+
+/* min size for a screen */
+@media screen and (min-width: 455px) {
+  main {
+    grid-template-columns: 1fr;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .intro {
+    width: 50%;
+    padding: 10px;
+  }
+
+  .skills-list {
+    width: 80%;
+    text-align: left;
+  }
 }
