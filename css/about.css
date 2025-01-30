@@ -52,7 +52,7 @@ header {
   width: 100%;
   background-color: #eae7e7;
   border-bottom: 1px solid black;
-  z-index: 1;
+  z-index: 1; /* line 55 of code was adapted from https://www.w3schools.com/cssref/pr_pos_z-index.php Accessed: 2025-01-31 */
 }
 
 header h1.orbitron-heading {
