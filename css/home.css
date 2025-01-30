@@ -146,10 +146,6 @@ nav a:hover {
   background-color: rgb(174, 170, 170);
 }
 
-/* main {
-  margin-top: 20rem;
-} */
-
 .archive {
   display: grid;
   padding: 20px;
@@ -173,6 +169,8 @@ nav a:hover {
 }
 .artwork .description {
   margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1rem;
 }
 .artwork #button {
   background-color: rgb(190, 96, 96);
@@ -180,6 +178,7 @@ nav a:hover {
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 20px;
+  font-size: 0.9rem;
 }
 
 .artwork #button:hover {
