@@ -93,7 +93,7 @@ main {
 }
 
 /* contact form */
-
+/* code was adapted from https://www.w3schools.com/howto/howto_css_contact_form.asp Accessed: 2025-01-31 */
 input[type="text"],
 select,
 textarea {

@@ -1,5 +1,5 @@
-/* <!-- Most of the lines of code was adapted from https://www.youtube.com/watch?v=M_jAoZULcmk Accessed: 2025-01-19 --> */
-/* <!-- Most of the lines of code was adapted from https://www.youtube.com/watch?v=ixZCLT9Xgnw Accessed: 2025-01-19 --> */
+/*  Most of the lines of code was adapted from https://www.youtube.com/watch?v=M_jAoZULcmk Accessed: 2025-01-19  */
+/*  Most of the lines of code was adapted from https://www.youtube.com/watch?v=ixZCLT9Xgnw Accessed: 2025-01-19 */
 
 /* fonts for the texts*/
 .orbitron-heading {
@@ -40,7 +40,7 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
-  min-height: 100vh;
+  min-height: 100vh; /* line 43 of code was adapted from https://www.shecodes.io/athena/4773-what-is-the-meaning-of-min-height-100vh-in-css#google_vignette Accessed: 2025-01-31 */
 }
 
 header {
@@ -128,6 +128,7 @@ footer {
 
 /* responsive design smaller screen */
 
+/* responisve design code was adapted and inspired from https://www.youtube.com/watch?v=yvqDrz2D_K8 Accessed: 2025-01-31 */
 @media screen and (max-width: 830px) {
   main {
     grid-template-columns: 1fr;
