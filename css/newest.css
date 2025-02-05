@@ -119,7 +119,6 @@ img {
 }
 
 #text-one {
-  display: flex;
   text-align: left;
   grid-column: 1;
   order: 2;
@@ -131,14 +130,12 @@ img {
 }
 
 #text-two {
-  display: flex;
   text-align: left;
   grid-column: 1;
   order: 4;
 }
 
 #text-under {
-  display: flex;
   text-align: left;
   order: 5;
 }

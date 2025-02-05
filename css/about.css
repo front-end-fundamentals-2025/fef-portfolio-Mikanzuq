@@ -97,7 +97,6 @@ main {
 .intro {
   padding: 0;
   width: 50%;
-  max-width: 200vh;
 }
 
 .skills {
@@ -113,7 +112,7 @@ main {
 
 /* images */
 .main-img {
-  padding: 0px;
+  padding: 0;
   width: 50%;
 }
 
