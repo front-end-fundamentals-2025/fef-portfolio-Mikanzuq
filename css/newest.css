@@ -140,6 +140,10 @@ img {
   order: 5;
 }
 
+.hover-zoom {
+  transition: transform 0.3s ease-in-out;
+}
+
 /* footer */
 footer {
   margin-top: auto;
