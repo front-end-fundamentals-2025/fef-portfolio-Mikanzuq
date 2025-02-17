@@ -157,15 +157,6 @@ nav a:hover {
   background-color: rgb(174, 170, 170);
 }
 
-@keyframes slideIn {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
-
 .archive {
   display: grid;
   padding: 20px;
@@ -207,6 +198,10 @@ nav a:hover {
 
 .artwork #button:hover {
   background-color: black;
+}
+
+.hover-zoom {
+  transition: transform 0.3s ease-in-out;
 }
 
 /* footer */
